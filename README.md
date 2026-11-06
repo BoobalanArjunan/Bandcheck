@@ -4,7 +4,7 @@
 
 A file saved as "48 kHz WAV" may hold audio that was recorded at 16 kHz and upsampled, or that went through an MP3 or AAC encoder before being converted back. Everything above the source's limit is empty. A header never shows this. bandcheck measures where the sound really stops and tells you which files hold much less than they claim.
 
-> **Status: alpha (0.1.0a1).** Tested on generated audio and real speech recordings (LibriSpeech dev-clean). Run `scripts/real_data_check.py` (see `docs/REAL_DATA_CHECK.md`) on your own data.
+> **Status: alpha (0.1.0a1).** Tested on generated audio, real speech recordings (LibriSpeech dev-clean), and 44.1 kHz studio music (MUSDB18-HQ). Run `scripts/real_data_check.py` (see `docs/REAL_DATA_CHECK.md`) on your own data.
 
 ## Install
 
@@ -54,7 +54,19 @@ For WARN and FAIL it lists the likely causes, for example `upsampled from 16000 
 
 ![Spectrogram Verification](real_check/spectrogram_verification.png)
 
-### 2. Synthetic Audio & Bug Injection
+### 2. Real 44.1 kHz Studio Music (MUSDB18-HQ, 200 files)
+- **Original recordings:**
+  - 197 PASS (98.5%), 2 WARN, 0 FAIL, 1 REVIEW, 0 ERROR.
+  - Flagged originals: 2 files (`other.wav` at 19.1 kHz, `drums.wav` at 19.3 kHz, both at 87% of 22.05 kHz Nyquist).
+- **Planted upsampling test (197 files evaluated):**
+  - From 8 kHz: 191 / 197 flagged as FAIL (median ratio 1.02).
+  - From 11.025 kHz: 185 / 197 flagged as FAIL (median ratio 1.05).
+  - From 16 kHz: 162 / 197 flagged as FAIL (median ratio 1.10).
+- **Planted MP3 encodes:**
+  - 64 kbps: 171 / 197 flagged, median cut-off 11.1 kHz.
+  - 128 kbps: 157 / 197 flagged, median cut-off 16.5 kHz.
+
+### 3. Synthetic Audio & Bug Injection
 - Full-band audio at 16, 22.05, 44.1 and 48 kHz: no cut-off found, PASS.
 - Audio lowpassed at 16, 19 and 20 kHz (44.1 and 48 kHz files) and 6-7 kHz (16 kHz files): cut-off found within 2% of where it was put.
 - Audio upsampled from 8, 11.025, 16, 22.05 and 24 kHz: flagged every time; the cut-off sits about 4-11% above the source's Nyquist frequency, because resampler filters roll off a little past it.

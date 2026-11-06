@@ -1,0 +1,201 @@
+file,sample_rate,cutoff_hz,cutoff_fraction,verdict,reason,likely_source,seconds_analysed
+drums.wav,44100,,,PASS,no sharp cut-off found,,108.0
+bass.wav,44100,,,PASS,no sharp cut-off found,,114.5
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,56.6
+vocals.wav,44100,,,PASS,no sharp cut-off found,,86.2
+drums.wav,44100,,,PASS,no sharp cut-off found,,105.6
+other.wav,44100,,,PASS,no sharp cut-off found,,99.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,54.6
+bass.wav,44100,,,PASS,no sharp cut-off found,,118.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,86.5
+vocals.wav,44100,,,PASS,no sharp cut-off found,,43.5
+mixture.wav,44100,21350.2,0.968,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,119.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,118.7
+mixture.wav,44100,21479.4,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,118.6
+mixture.wav,44100,21447.1,0.973,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,70.0
+drums.wav,44100,20273.5,0.919,PASS,sound reaches 20.3 kHz (92% of the way to 22.05 kHz),,102.1
+bass.wav,44100,,,PASS,no sharp cut-off found,,94.8
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.4
+bass.wav,44100,,,PASS,no sharp cut-off found,,73.9
+other.wav,44100,21468.6,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,119.9
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+mixture.wav,44100,,,PASS,no sharp cut-off found,,66.8
+bass.wav,44100,,,PASS,no sharp cut-off found,,36.0
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,119.1
+drums.wav,44100,,,PASS,no sharp cut-off found,,78.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,118.0
+mixture.wav,44100,,,PASS,no sharp cut-off found,,117.8
+drums.wav,44100,,,PASS,no sharp cut-off found,,78.2
+mixture.wav,44100,,,PASS,no sharp cut-off found,,118.4
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,91.5
+bass.wav,44100,,,PASS,no sharp cut-off found,,102.5
+drums.wav,44100,,,PASS,no sharp cut-off found,,98.6
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,117.1
+vocals.wav,44100,,,PASS,no sharp cut-off found,,89.3
+vocals.wav,44100,,,PASS,no sharp cut-off found,,76.6
+drums.wav,44100,21479.4,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,60.7
+other.wav,44100,,,PASS,no sharp cut-off found,,117.4
+bass.wav,44100,,,PASS,no sharp cut-off found,,119.1
+mixture.wav,44100,21468.6,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,119.5
+bass.wav,44100,,,PASS,no sharp cut-off found,,86.5
+other.wav,44100,,,PASS,no sharp cut-off found,,102.4
+bass.wav,44100,,,PASS,no sharp cut-off found,,31.3
+bass.wav,44100,,,PASS,no sharp cut-off found,,100.5
+other.wav,44100,19078.4,0.865,WARN,sound stops at 19.1 kHz (87% of the way to 22.05 kHz),a lossy encoder's lowpass (MP3/AAC),119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,92.8
+drums.wav,44100,21425.5,0.972,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,112.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,110.1
+mixture.wav,44100,,,PASS,no sharp cut-off found,,116.7
+vocals.wav,44100,,,PASS,no sharp cut-off found,,63.5
+mixture.wav,44100,,,PASS,no sharp cut-off found,,118.8
+drums.wav,44100,,,PASS,no sharp cut-off found,,107.3
+other.wav,44100,,,PASS,no sharp cut-off found,,114.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,113.0
+vocals.wav,44100,,,PASS,no sharp cut-off found,,96.7
+vocals.wav,44100,20219.7,0.917,PASS,sound reaches 20.2 kHz (92% of the way to 22.05 kHz),,92.8
+other.wav,44100,,,PASS,no sharp cut-off found,,119.6
+drums.wav,44100,,,PASS,no sharp cut-off found,,116.0
+vocals.wav,44100,,,PASS,no sharp cut-off found,,110.3
+other.wav,44100,,,PASS,no sharp cut-off found,,106.6
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,114.0
+other.wav,44100,,,PASS,no sharp cut-off found,,114.1
+drums.wav,44100,,,PASS,no sharp cut-off found,,100.1
+drums.wav,44100,,,PASS,no sharp cut-off found,,104.6
+other.wav,44100,,,PASS,no sharp cut-off found,,108.8
+other.wav,44100,,,PASS,no sharp cut-off found,,118.0
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,21436.3,0.972,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,79.1
+vocals.wav,44100,,,PASS,no sharp cut-off found,,89.0
+drums.wav,44100,21522.4,0.976,PASS,sound reaches 21.5 kHz (98% of the way to 22.05 kHz),,95.2
+bass.wav,44100,,,PASS,no sharp cut-off found,,116.2
+drums.wav,44100,,,PASS,no sharp cut-off found,,113.1
+bass.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,88.6
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,93.4
+drums.wav,44100,19272.2,0.874,WARN,sound stops at 19.3 kHz (87% of the way to 22.05 kHz),a lossy encoder's lowpass (MP3/AAC),115.4
+vocals.wav,44100,21490.1,0.975,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,83.8
+drums.wav,44100,,,PASS,no sharp cut-off found,,92.5
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,117.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,112.3
+other.wav,44100,,,PASS,no sharp cut-off found,,108.5
+vocals.wav,44100,21457.8,0.973,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,95.2
+bass.wav,44100,,,PASS,no sharp cut-off found,,60.7
+bass.wav,44100,,,PASS,no sharp cut-off found,,101.7
+vocals.wav,44100,21457.8,0.973,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,50.2
+drums.wav,44100,,,PASS,no sharp cut-off found,,98.5
+other.wav,44100,21447.1,0.973,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,119.9
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.0
+mixture.wav,44100,21425.5,0.972,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,119.3
+vocals.wav,44100,,,PASS,no sharp cut-off found,,86.1
+vocals.wav,44100,,,PASS,no sharp cut-off found,,116.1
+drums.wav,44100,,,PASS,no sharp cut-off found,,96.6
+other.wav,44100,21382.5,0.97,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,114.0
+vocals.wav,44100,,,PASS,no sharp cut-off found,,19.4
+other.wav,44100,,,PASS,no sharp cut-off found,,116.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,51.1
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,88.3
+other.wav,44100,,,PASS,no sharp cut-off found,,119.6
+mixture.wav,44100,,,PASS,no sharp cut-off found,,117.7
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,113.1
+other.wav,44100,,,PASS,no sharp cut-off found,,119.4
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,109.6
+bass.wav,44100,,,PASS,no sharp cut-off found,,119.9
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+vocals.wav,44100,,,PASS,no sharp cut-off found,,76.5
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,84.0
+vocals.wav,44100,,,PASS,no sharp cut-off found,,73.8
+bass.wav,44100,,,PASS,no sharp cut-off found,,75.8
+drums.wav,44100,21414.8,0.971,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,106.7
+mixture.wav,44100,20273.5,0.919,PASS,sound reaches 20.3 kHz (92% of the way to 22.05 kHz),,119.4
+vocals.wav,44100,,,PASS,no sharp cut-off found,,92.1
+mixture.wav,44100,,,PASS,no sharp cut-off found,,118.5
+drums.wav,44100,21468.6,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,81.1
+bass.wav,44100,,,PASS,no sharp cut-off found,,22.4
+bass.wav,44100,,,PASS,no sharp cut-off found,,112.5
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,21479.4,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,85.3
+bass.wav,44100,,,PASS,no sharp cut-off found,,115.0
+bass.wav,44100,,,PASS,no sharp cut-off found,,71.2
+bass.wav,44100,,,PASS,no sharp cut-off found,,98.4
+vocals.wav,44100,,,PASS,no sharp cut-off found,,98.9
+vocals.wav,44100,21436.3,0.972,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,106.0
+other.wav,44100,,,PASS,no sharp cut-off found,,118.0
+other.wav,44100,,,PASS,no sharp cut-off found,,119.2
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.0
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.7
+drums.wav,44100,,,PASS,no sharp cut-off found,,82.3
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+other.wav,44100,21447.1,0.973,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,111.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,68.5
+vocals.wav,44100,,,PASS,no sharp cut-off found,,109.1
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.8
+vocals.wav,44100,,,PASS,no sharp cut-off found,,43.7
+drums.wav,44100,,,PASS,no sharp cut-off found,,113.7
+mixture.wav,44100,,,PASS,no sharp cut-off found,,114.1
+bass.wav,44100,,,PASS,no sharp cut-off found,,73.0
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.5
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.6
+vocals.wav,44100,,,PASS,no sharp cut-off found,,67.4
+other.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,105.3
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.8
+other.wav,44100,,,PASS,no sharp cut-off found,,113.8
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.5
+other.wav,44100,,,PASS,no sharp cut-off found,,63.6
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,104.7
+drums.wav,44100,,,PASS,no sharp cut-off found,,65.2
+vocals.wav,44100,,,PASS,no sharp cut-off found,,88.2
+drums.wav,44100,,,PASS,no sharp cut-off found,,74.1
+drums.wav,44100,21479.4,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,105.9
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.7
+bass.wav,44100,,,PASS,no sharp cut-off found,,27.3
+mixture.wav,44100,,,PASS,no sharp cut-off found,,119.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,108.3
+bass.wav,44100,,,PASS,no sharp cut-off found,,101.1
+drums.wav,44100,,,PASS,no sharp cut-off found,,112.2
+vocals.wav,44100,21457.8,0.973,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,112.6
+vocals.wav,44100,,,PASS,no sharp cut-off found,,21.4
+drums.wav,44100,,,PASS,no sharp cut-off found,,79.6
+drums.wav,44100,21457.8,0.973,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,52.9
+drums.wav,44100,,,PASS,no sharp cut-off found,,113.8
+bass.wav,44100,,,PASS,no sharp cut-off found,,107.8
+other.wav,44100,,,PASS,no sharp cut-off found,,119.7
+drums.wav,44100,,,PASS,no sharp cut-off found,,63.1
+bass.wav,44100,,,PASS,no sharp cut-off found,,104.6
+other.wav,44100,,,PASS,no sharp cut-off found,,118.1
+mixture.wav,44100,21457.8,0.973,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,119.9
+bass.wav,44100,,,PASS,no sharp cut-off found,,90.8
+drums.wav,44100,21350.2,0.968,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,71.8
+other.wav,44100,,,PASS,no sharp cut-off found,,80.4
+bass.wav,44100,,,PASS,no sharp cut-off found,,65.2
+bass.wav,44100,,,PASS,no sharp cut-off found,,114.7
+drums.wav,44100,,,PASS,no sharp cut-off found,,84.3
+drums.wav,44100,,,PASS,no sharp cut-off found,,80.6
+mixture.wav,44100,21425.5,0.972,PASS,sound reaches 21.4 kHz (97% of the way to 22.05 kHz),,118.3
+vocals.wav,44100,,,REVIEW,"too short, silent or too few loud parts to measure a bandwidth",,0.0
+other.wav,44100,,,PASS,no sharp cut-off found,,111.7
+other.wav,44100,,,PASS,no sharp cut-off found,,115.3
+bass.wav,44100,,,PASS,no sharp cut-off found,,51.5
+bass.wav,44100,,,PASS,no sharp cut-off found,,114.2
+other.wav,44100,,,PASS,no sharp cut-off found,,119.8
+other.wav,44100,,,PASS,no sharp cut-off found,,117.6
+other.wav,44100,21479.4,0.974,PASS,sound reaches 21.5 kHz (97% of the way to 22.05 kHz),,119.9

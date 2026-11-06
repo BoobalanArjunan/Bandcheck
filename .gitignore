@@ -4,3 +4,4 @@ __pycache__/
 build/
 dist/
 real_check/planted/
+real_check_*/planted/
