@@ -62,7 +62,7 @@ For WARN and FAIL it lists the likely causes, for example `upsampled from 16000 
 - 79 tests pass. 25 deliberately planted bugs in the code were each caught by the tests (5 needed a stronger test first).
 
 ## Limits (read these)
-- **Defaults and thresholds:** The 25 dB drop, the 90% and 60% limits and the 19.5 kHz rule are judgement defaults set on generated audio; on 200 LibriSpeech dev-clean files, 12 were flagged (11 WARN, 1 FAIL), and planted upsampling was caught 370 of 370 times.
+- **Defaults and thresholds:** The 25 dB drop, the 90% and 60% limits and the 19.5 kHz rule are judgement defaults set on generated audio; on 200 LibriSpeech dev-clean files, 12 were flagged (11 WARN, 1 FAIL), and caught 370 of 370 planted copies (from 8 and 11.025 kHz sources).
 - **Cannot tell upsampled from lossy-encoded** from one number, and cannot tell either from a recording that really was made with a limited microphone or filter. It reports where the sound stops, not why.
 - **Gradual roll-offs are not detected.** A gentle filter with no sharp edge, or dull-sounding music, passes.
 - **Cut-offs below 2.5 kHz are not looked for.** Speech and music change a lot there.
