@@ -4,7 +4,7 @@
 
 A file saved as "48 kHz WAV" may hold audio that was recorded at 16 kHz and upsampled, or that went through an MP3 or AAC encoder before being converted back. Everything above the source's limit is empty. A header never shows this. bandcheck measures where the sound really stops and tells you which files hold much less than they claim.
 
-> **Status: alpha (0.1.0a1).** Tested on generated audio, real speech recordings (LibriSpeech dev-clean), and 44.1 kHz studio music (MUSDB18-HQ). Run `scripts/real_data_check.py` (see `docs/REAL_DATA_CHECK.md`) on your own data.
+> **Status: alpha (0.1.0).** Tested on generated audio, real speech recordings (LibriSpeech dev-clean), and 44.1 kHz studio music (MUSDB18-HQ). Run `scripts/real_data_check.py` (see `docs/REAL_DATA_CHECK.md`) on your own data.
 
 ## Install
 

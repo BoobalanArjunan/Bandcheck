@@ -318,7 +318,7 @@ def test_cli_unreadable_file_listed_but_not_failing(tmp_path, capsys):
 def test_version(capsys):
     with pytest.raises(SystemExit):
         main(["--version"])
-    assert "bandcheck 0.1.0a1" in capsys.readouterr().out
+    assert "bandcheck 0.1.0" in capsys.readouterr().out
 
 
 # ---------------------------------------------------------------- tests added after the planted-bug check
