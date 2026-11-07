@@ -9,9 +9,19 @@ description = "Find audio files whose real frequency range is lower than their s
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.9"
-authors = [{ name = "Boobalan Arjunan" }]
+authors = [
+  { name = "Boobalan Arjunan", email = "boobalan_arjunan@composermind.com" },
+]
+maintainers = [
+  { name = "Boobalan Arjunan", email = "boobalan_arjunan@composermind.com" },
+]
 dependencies = ["numpy>=1.23", "scipy>=1.9", "soundfile>=0.12"]
 classifiers = ["Development Status :: 3 - Alpha", "License :: OSI Approved :: MIT License", "Topic :: Multimedia :: Sound/Audio :: Analysis"]
+
+[project.urls]
+Homepage = "https://github.com/BoobalanArjunan/Bandcheck"
+Issues = "https://github.com/BoobalanArjunan/Bandcheck/issues"
+Source = "https://github.com/BoobalanArjunan/Bandcheck"
 
 [project.optional-dependencies]
 dev = ["pytest"]
